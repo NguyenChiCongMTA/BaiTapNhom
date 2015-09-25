@@ -18,6 +18,7 @@ namespace QuanLyNhanSu
         {
             classNV result = new classNV();
 			int n;
+			int i;
             return result;
         }
     }
