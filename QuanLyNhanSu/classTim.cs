@@ -17,6 +17,7 @@ namespace QuanLyNhanSu
         public static classNV tim_theo_ten(string name)
         {
             classNV result = new classNV();
+			int n;
             return result;
         }
     }
