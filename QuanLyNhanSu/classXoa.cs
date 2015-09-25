@@ -11,6 +11,7 @@ namespace QuanLyNhanSu
         public static int xoa(string ID)
         {
             //...xoa thanh con return 0;khong thanh cong return -1
+			int n ;
             return 0; 
         }
     }
