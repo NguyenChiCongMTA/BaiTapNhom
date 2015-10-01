@@ -10,7 +10,7 @@ namespace QuanLyNhanSu
     {
         public static int xoa(string ID)
         {
-            string a="FUCK FUCK FUCK FUCK!!!!!!";
+            string a="FUCK VKL!!!!!!";
             return 0; 
         }
     }
