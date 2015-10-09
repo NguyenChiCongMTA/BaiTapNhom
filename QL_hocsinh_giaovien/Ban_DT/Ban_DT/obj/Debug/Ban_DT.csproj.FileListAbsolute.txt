@@ -1,5 +1,0 @@
-D:\Học Tập\github\BaiTapNhom\QL_hocsinh_giaovien\Ban_DT\Ban_DT\bin\Ban_DT.dll
-D:\Học Tập\github\BaiTapNhom\QL_hocsinh_giaovien\Ban_DT\Ban_DT\bin\Ban_DT.pdb
-D:\Học Tập\github\BaiTapNhom\QL_hocsinh_giaovien\Ban_DT\Ban_DT\obj\Debug\Ban_DT.dll
-D:\Học Tập\github\BaiTapNhom\QL_hocsinh_giaovien\Ban_DT\Ban_DT\obj\Debug\Ban_DT.pdb
-D:\Học Tập\github\BaiTapNhom\QL_hocsinh_giaovien\Ban_DT\Ban_DT\obj\Debug\Ban_DT.csprojResolveAssemblyReference.cache
