@@ -15,3 +15,10 @@ D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
 D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.formManage.resources
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.formLogin.resources
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
