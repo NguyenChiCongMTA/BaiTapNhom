@@ -34,38 +34,42 @@ namespace QuanLyNhanSu
 
         private void butInsert_Click(object sender, EventArgs e)
         {
-
-            int stt = classThem.them(in_boxName.Text, in_boxQq.Text, in_boxNS.Value, in_boxDV.Text, in_boxCV.Text ,in_boxBL.Text);
-            if (stt == -1)
-                MessageBox.Show("Thêm thành công");
-            else
-                MessageBox.Show("Thêm lỗi");
-
+            classNV nv = new classNV();
+            nv.hoten = in_boxName.Text;
+            nv.ns = in_boxNS.Value;
+            nv.quequan = in_boxQq.Text;
+            nv.donvi = in_boxDV.Text;
+            nv.hesoluong = int.Parse(in_boxBL.Text);
+            nv.socmnd = in_boxCMND.Text;
+            nv.sodienthoai = in_BoxDT.Text;
+            string mess = connect.insert(nv) ? "Them thanh cong " : "Them that bai";
+            //dataGridView1.DataSource = new connect().LoadData();
+            MessageBox.Show(mess);
         }
 
         private void butDel_Click(object sender, EventArgs e)
         {
-            int stt = classXoa.xoa(xoa_boxID.Text);
-            if (stt == -1)
-                MessageBox.Show("Thêm thành công");
-            else
-                MessageBox.Show("Thêm lỗi");
-
+            
         }
 
         private void sua_butTim_Click(object sender, EventArgs e)
         {
-           int stt =  classSua.sua(sua_boxID.Text);
-           if (stt == -1)
-               MessageBox.Show("Thêm thành công");
-           else
-               MessageBox.Show("Thêm lỗi");
-
+           
         }
 
         private void butEdit_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void in_boxBL_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

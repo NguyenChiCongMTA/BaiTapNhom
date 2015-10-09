@@ -19,8 +19,19 @@ namespace QuanLyNhanSu
 
         private void logInBut_Click(object sender, EventArgs e)
         {
-            this.Close();
-            Application.Run(new formManage());
+            if (connect.CheckUser(uNameBox.Text, pWordBox.Text) )
+            {
+                this.Hide();
+                formManage main = new formManage();
+                main.Show();
+            }
+            else
+            {
+                MessageBox.Show("Sai tai khoan hoac mat khau");
+                
+            }
+
+            
         }
     }
 }

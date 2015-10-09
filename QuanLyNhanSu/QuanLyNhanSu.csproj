@@ -50,6 +50,7 @@
     <Compile Include="classThem.cs" />
     <Compile Include="classTim.cs" />
     <Compile Include="classXoa.cs" />
+    <Compile Include="connect.cs" />
     <Compile Include="formManage.cs">
       <SubType>Form</SubType>
     </Compile>
