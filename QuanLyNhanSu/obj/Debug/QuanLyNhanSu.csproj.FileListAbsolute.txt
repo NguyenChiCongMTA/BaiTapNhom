@@ -12,6 +12,7 @@ D:\BaiTapNhom\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 D:\BaiTapNhom\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
 D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+<<<<<<< HEAD
 D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
 D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.formManage.resources
 D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.formLogin.resources
@@ -19,3 +20,8 @@ D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
 D:\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
 D:\BaiTapNhom\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
 D:\BaiTapNhom\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+=======
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+D:\Học Tập\github\BaiTapNhom\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+>>>>>>> origin/master
