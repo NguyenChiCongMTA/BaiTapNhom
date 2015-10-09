@@ -67,5 +67,10 @@ namespace QuanLyNhanSu
         {
             
         }
+
+        private void linkHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // hiển thị bảng hướng dẫn
+        }
     }
 }

@@ -32,6 +32,7 @@
             this.tabThemNS = new System.Windows.Forms.TabPage();
             this.label16 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.in_boxNS = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.butInsert = new System.Windows.Forms.Button();
             this.in_boxBL = new System.Windows.Forms.TextBox();
@@ -84,12 +85,12 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.tabTimKiem = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox15 = new System.Windows.Forms.TextBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.in_boxNS = new System.Windows.Forms.DateTimePicker();
+            this.linkHelp = new System.Windows.Forms.LinkLabel();
             this.tabControl.SuspendLayout();
             this.tabThemNS.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -155,6 +156,13 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(243, 218);
             this.panel2.TabIndex = 4;
+            // 
+            // in_boxNS
+            // 
+            this.in_boxNS.Location = new System.Drawing.Point(100, 74);
+            this.in_boxNS.Name = "in_boxNS";
+            this.in_boxNS.Size = new System.Drawing.Size(100, 20);
+            this.in_boxNS.TabIndex = 17;
             // 
             // label1
             // 
@@ -629,6 +637,15 @@
             this.tabTimKiem.UseVisualStyleBackColor = true;
             this.tabTimKiem.Click += new System.EventHandler(this.tabTimKiem_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(212, 6);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(44, 19);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -668,27 +685,23 @@
             this.radioButton1.Text = "Tìm theo tên";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // linkHelp
             // 
-            this.button1.Location = new System.Drawing.Point(212, 6);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(44, 19);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // in_boxNS
-            // 
-            this.in_boxNS.Location = new System.Drawing.Point(100, 74);
-            this.in_boxNS.Name = "in_boxNS";
-            this.in_boxNS.Size = new System.Drawing.Size(100, 20);
-            this.in_boxNS.TabIndex = 17;
+            this.linkHelp.AutoSize = true;
+            this.linkHelp.Location = new System.Drawing.Point(430, 16);
+            this.linkHelp.Name = "linkHelp";
+            this.linkHelp.Size = new System.Drawing.Size(47, 13);
+            this.linkHelp.TabIndex = 2;
+            this.linkHelp.TabStop = true;
+            this.linkHelp.Text = "Help(F1)";
+            this.linkHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkHelp_LinkClicked);
             // 
             // formManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(516, 347);
+            this.Controls.Add(this.linkHelp);
             this.Controls.Add(this.tabControl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formManage";
@@ -710,6 +723,7 @@
             this.tabTimKiem.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -777,5 +791,6 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker in_boxNS;
+        private System.Windows.Forms.LinkLabel linkHelp;
     }
 }
