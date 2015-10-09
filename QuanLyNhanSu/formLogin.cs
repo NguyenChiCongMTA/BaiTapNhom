@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace QuanLyNhanSu
 {
@@ -16,19 +17,29 @@ namespace QuanLyNhanSu
         {
             InitializeComponent();
         }
-
+        private static string connectionString = QuanLyNhanSu.Properties.Settings.Default.QuanLyNhanSu;
+        private static SqlConnection con;
         private void logInBut_Click(object sender, EventArgs e)
         {
-            if (connect.CheckUser(uNameBox.Text, pWordBox.Text) )
+            SqlCommand command = new SqlCommand();
+            command.Connection = con;
+            command.CommandType = CommandType.Text;
+            command.CommandText = "Select username,passworduser from NGUOIDUNG where (username=@user) and (passworduser=@pass)";
+            command.Parameters.Add("@user", SqlDbType.NVarChar, 50).Value = uNameBox.Text;
+            command.Parameters.Add("@pass", SqlDbType.NVarChar, 50).Value = pWordBox.Text;
+            da.SelectCommand = command;
+            da.Fill(dt);
+            if (dt.Rows.Count > 0)
             {
-                this.Hide();
-                formManage main = new formManage();
-                main.Show();
+                QuanLy ql = new QuanLy();
+                delPassData del = new delPassData(ql.funData);
+                del(this.txtTaikhoan);
+                ql.Show();
+                Hide();
             }
             else
             {
-                MessageBox.Show("Sai tai khoan hoac mat khau");
-                
+                MessageBox.Show("Đăng nhập thất bại. Sai mật khẩu hoặc tên tài khoản");
             }
 
             
