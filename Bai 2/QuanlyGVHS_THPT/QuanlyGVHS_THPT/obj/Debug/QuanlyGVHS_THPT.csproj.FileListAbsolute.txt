@@ -8,3 +8,6 @@ D:\ThucTapNhom\QuanlyGVHS_THPT\QuanlyGVHS_THPT\bin\Debug\QuanlyGVHS_THPT.exe
 D:\ThucTapNhom\QuanlyGVHS_THPT\QuanlyGVHS_THPT\bin\Debug\QuanlyGVHS_THPT.pdb
 D:\ThucTapNhom\QuanlyGVHS_THPT\QuanlyGVHS_THPT\obj\Debug\QuanlyGVHS_THPT.exe
 D:\ThucTapNhom\QuanlyGVHS_THPT\QuanlyGVHS_THPT\obj\Debug\QuanlyGVHS_THPT.pdb
+D:\ThucTapNhom\Bai 2\QuanlyGVHS_THPT\QuanlyGVHS_THPT\bin\Debug\QuanlyGVHS_THPT.exe.config
+D:\ThucTapNhom\Bai 2\QuanlyGVHS_THPT\QuanlyGVHS_THPT\obj\Debug\QuanlyGVHS_THPT.exe
+D:\ThucTapNhom\Bai 2\QuanlyGVHS_THPT\QuanlyGVHS_THPT\obj\Debug\QuanlyGVHS_THPT.pdb

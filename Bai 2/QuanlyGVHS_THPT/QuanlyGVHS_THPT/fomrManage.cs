@@ -74,5 +74,10 @@ namespace QuanlyGVHS_THPT
             //classGV gv = classTim.TimGVTheoID(xoagv_boxID.Text);
             classXoa.XoaGV(xoagv_boxID.Text);
         }
+
+        private void linkHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            /// hiển thị bảng hướng dẫn
+        }
     }
 }

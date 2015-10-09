@@ -123,6 +123,7 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.them_boxName = new System.Windows.Forms.TextBox();
             this.tab = new System.Windows.Forms.TabControl();
+            this.linkHelp = new System.Windows.Forms.LinkLabel();
             this.tabThemGV.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -1001,11 +1002,23 @@
             this.tab.Size = new System.Drawing.Size(653, 500);
             this.tab.TabIndex = 0;
             // 
+            // linkHelp
+            // 
+            this.linkHelp.AutoSize = true;
+            this.linkHelp.Location = new System.Drawing.Point(607, 9);
+            this.linkHelp.Name = "linkHelp";
+            this.linkHelp.Size = new System.Drawing.Size(47, 13);
+            this.linkHelp.TabIndex = 1;
+            this.linkHelp.TabStop = true;
+            this.linkHelp.Text = "Help(F1)";
+            this.linkHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkHelp_LinkClicked);
+            // 
             // fomrManage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(670, 525);
+            this.Controls.Add(this.linkHelp);
             this.Controls.Add(this.tab);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fomrManage";
@@ -1031,6 +1044,7 @@
             this.panel1.PerformLayout();
             this.tab.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -1131,6 +1145,7 @@
         private System.Windows.Forms.TextBox suagv_boxSDT;
         private System.Windows.Forms.TextBox suagv_boxHoten;
         private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.LinkLabel linkHelp;
 
 
     }
