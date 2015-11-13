@@ -1,0 +1,11 @@
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.formLogin.resources
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.formManage.resources
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\ThucTapNhom\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Huongdan.resources
